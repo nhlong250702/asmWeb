@@ -10,7 +10,7 @@ body {
 }
 
 #body {
-  width: 960px;
+  width: 1080px;
   margin: 0 auto;
 }
 
@@ -111,7 +111,7 @@ body {
 }
 
 #right {
-  width: 210px;
+  width: 250px;
   height: 100%;
   background-color: brown;
   float: left;
