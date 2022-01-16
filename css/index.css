@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Quicksand", sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background-color: #24A19C;
+    color: white;
+    line-height: 40px;
+}
+
+.menu-logo{
+    height: 70px;
+    position: relative;
+    background-color: #ededed;
+}
+
+.menu-logo .logo{
+    position: absolute;
+    left: 80px;
+}
+
+.menu-logo nav{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+
+.menu-logo nav a{
+    text-decoration: none;
+    top: 10px;
+    right: 10px;
+    line-height: 70px;
+    margin: 0 20px;
+}
+
+.menu-logo nav a:hover{
+    color:#24A19C;
+    font-weight: bold;
+    transition: all .5s linear;
+}
+
+.banner {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+.banner img{
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+.product .heading{
+    font-style: 20px;
+    color: #24A19C;
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.product .list-product  .product-item{
+    width: 22%;
+    margin: 20px 20px;
+    display: inline-block;
+}
+
+.product .list-product .product-item img{
+    max-width: 100%;
+}
+
+b {
+    color: red;
+}
+
+.tintuc .nav-item{
+    width: 30%;
+    margin: 20px;
+    display: inline-block;
+}
+
+.tintuc .nav-item img{
+    max-width: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: #24A19C;
+    color: white;
+  }
+   
+  footer .footer-item{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  footer .footer-item h3{
+    margin: 20px 0;
+  }
+  
+  footer .link a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    margin: 5px 0;
+  }
+  
+  .tacgia{
+    background-color: #24A19C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
