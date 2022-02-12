@@ -15,14 +15,6 @@ header{
     left: 0;
 }
 
-.thongbao{
-    height: 40px;
-    text-align: center;
-    background-color: #24A19C;
-    color: white;
-    line-height: 40px;
-}
-
 .menu-logo{
     height: 70px;
     position: relative;
@@ -75,9 +67,10 @@ header{
 }
 
 .product .list-product  .product-item{
-    width: 22%;
-    margin: 20px 20px;
+    width: 20%;
+    margin: 20px;
     display: inline-block;
+    
 }
 
 .product .list-product .product-item img{
