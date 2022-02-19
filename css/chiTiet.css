@@ -35,7 +35,7 @@
 #header .top-header input[type="text"] {
   padding: 10px;
   margin-top: 20px;
-  margin-left: 70px ;
+  margin-left: 70px;
   border: none;
   font-size: 17px;
   border: 1px solid #24a19c;
@@ -97,79 +97,87 @@
   background-color: #24a19c;
 }
 
-#banner {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 150px;
-}
-
-#banner img {
-  max-width: 100%;
-  border-radius: 30px;
-}
-
 #content {
-  background-color: white;
+  margin: 140px 50px 20px;
+  margin-left: 70px;
+  width: 100%;
+  height: 2000px;
 }
 
-#content .heading {
-  font-style: 20px;
-  color: #24a19c;
-  text-align: center;
-  margin: 40px 0;
-  z-index: 2;
-  display: block;
-}
-
-#content .list-product {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-#content .list-product .product {
-  box-shadow: 0 0 5px gray;
-  margin: 10px;
-  padding: 10px;
-  width: 20%;
+#content .sanPham {
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 0 5px black;
+  padding: 25px;
   float: left;
-  text-align: center;
 }
 
-#content .list-product .product img {
-  max-width: 98%;
-  height: 150px;
-}
-
-#content .list-product .product .price {
-  color: red;
-}
-
-#news .heading {
-  font-style: 20px;
-  color: #24a19c;
-  text-align: center;
-  margin: 40px 0;
-  display: block;
-}
-
-#news .bantin {
-  background-color: black;
-  height: 500px;
-}
-
-#news .nav-item {
-  box-shadow: 0 0 5px gray;
-  margin: 10px;
-  margin-left: 50px;
-  padding: 20px;
+#content .sanPham img {
   width: 350px;
-  display: inline-block;
+  height: 250px;
 }
 
-#news .nav-item img {
-  width: 98%;
-  height: 200px;
+#content .thongTinSP {
+  width: 700px;
+  height: 500px;
+  margin-left: 50px;
+  float: left;
+}
+
+#content .thongTinSP .tieuDe {
+    color: gray;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+#content .thongTinSP .gia{
+    padding: 20px;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#content .thongTinSP .tieuDeCon {
+    color: red;
+    margin: 10px;
+}
+
+#content .thongTinSP .thongTin {
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+#content .thongTinSP .button-form {
+    margin: 20px;
+}
+
+#content .thongTinSP .button-form .button{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    float: right;
+    margin: 10px;
+}
+
+#content .moTaSanPham {
+    width: 900px;
+    /* height: 2000px; */
+    background-color: purple;
+
+    float: left;
+    margin-top: 30px;
+}
+
+#content .sanPhamBanChay {
+    width: 250px;
+    /* height: 2000px; */
+    background-color: yellow;
+
+    margin-top: 30px;
+    float: left;
 }
 
 #footer {

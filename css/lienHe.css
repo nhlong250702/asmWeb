@@ -35,7 +35,7 @@
 #header .top-header input[type="text"] {
   padding: 10px;
   margin-top: 20px;
-  margin-left: 70px ;
+  margin-left: 70px;
   border: none;
   font-size: 17px;
   border: 1px solid #24a19c;
@@ -97,79 +97,81 @@
   background-color: #24a19c;
 }
 
-#banner {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 150px;
-}
-
-#banner img {
-  max-width: 100%;
-  border-radius: 30px;
-}
-
 #content {
-  background-color: white;
+  /* background-color: black; */
+  margin: 140px 0 20px 0;
 }
 
-#content .heading {
-  font-style: 20px;
-  color: #24a19c;
-  text-align: center;
-  margin: 40px 0;
-  z-index: 2;
-  display: block;
-}
-
-#content .list-product {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-#content .list-product .product {
-  box-shadow: 0 0 5px gray;
-  margin: 10px;
-  padding: 10px;
-  width: 20%;
+#content .form {
+  /* margin-bottom: 10px; */
+  padding: 5px;
+  /* background-color: blueviolet; */
+  width: 50%;
   float: left;
+  font-variant: small-caps;
+  font-weight: bolder;
+}
+
+#content .form p {
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+#content .form input {
+  height: 30px;
+}
+
+#content .form .text {
+  margin: 5px 20px 22px;
+  width: 580px;
+}
+
+#content .form .button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+  margin: 0 70px 0;
+}
+
+#content .map {
+  margin-left: 50%;
+  padding: 5px;
+}
+
+#signup {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(194, 188, 188);
   text-align: center;
+  margin: 5px;
 }
 
-#content .list-product .product img {
-  max-width: 98%;
-  height: 150px;
+#signup .gioiThieu {
+  width: 600px;
+  height: 80px;
+  float: left;
 }
 
-#content .list-product .product .price {
-  color: red;
-}
-
-#news .heading {
-  font-style: 20px;
-  color: #24a19c;
+#signup .mail {
+  width: 705px;
+  height: 80px;
+  float: right;
   text-align: center;
-  margin: 40px 0;
-  display: block;
-}
-
-#news .bantin {
-  background-color: black;
-  height: 500px;
-}
-
-#news .nav-item {
-  box-shadow: 0 0 5px gray;
-  margin: 10px;
-  margin-left: 50px;
   padding: 20px;
-  width: 350px;
-  display: inline-block;
 }
 
-#news .nav-item img {
-  width: 98%;
-  height: 200px;
+#signup .mail input {
+  width: 200px;
+  height: 30px;
+}
+
+#signup .mail button {
+  background-color: blue;
+  color: wheat;
+  width: 100px;
+  height: 30px;
 }
 
 #footer {
